@@ -1,0 +1,34 @@
+Student Project Report
+
+Prince Francis Okoi
+
+Do the following:
+
+1. In the table below, list the dates, amount of time spent, and
+description of the work that you did on your project. Follow the example
+that is in the first row of the table below. Include the time you spent
+doing any of the following:
+    a. discussing your project with your teacher, tutor, or fellow students
+    b. researching by reading articles and watching applicable videos
+    c. designing your project by drawing diagrams and other applicable documents
+    d. writing experimental code
+    d. writing code for your project
+    e. writing test functions
+    f. debugging your code
+    g. any other activity that helped you complete your project
+
+===============Answer====================
+            Time Spent
+   Date       (hours)   Description of Work
+----------  ----------  -------------------------
+2026-02-15      4.5     Wrote and test two program functions load_expenses(filename) and save_expense(filename, expense)
+2026-02-16	5	Wrote and debug three more functions to get input and calculate expense
+2026-02-17	8	Asked questions, debuging errors, added exception handling and wrote the test function "test_expense_tracker.py"
+2026-02-17	2	Testing program and adding extra requirement to improve functionality
+================Answer====================
+
+
+
+2. In Canvas, submit this completed text file, your Python program, your
+Python test file, and any project data files such as .txt and .csv files and
+link to video walkthrough if needed.

@@ -1,0 +1,27 @@
+# test_weather.py
+from weather import cels_from_fahr, wind_chill
+from pytest import approx
+import pytest
+def test_cels_from_fahr():
+    """Test the cels_from_fahr function by calling it and
+    comparing the values it returns to the expected values.
+    Notice this test function uses pytest.approx to compare
+    floating-point numbers.
+    """
+    assert cels_from_fahr(-25) == approx(-31.66667)
+    assert cels_from_fahr(0) == approx(-17.77778)
+    assert cels_from_fahr(32) == approx(0)
+    assert cels_from_fahr(70) == approx(21.1111)
+
+def test_wind_chill():
+    chill = wind_chill(0, 3)
+    assert chill == approx(-6.9)
+
+    chill = wind_chill(-5, 5)
+    assert chill == approx(-16.4)
+
+    chill = wind_chill(-10, 3)
+    assert chill == approx(-18.2)
+# Call the main function that is part of pytest so that the
+# computer will execute the test functions in this file.
+pytest.main(["-v", "--tb=line", "-rN", __file__])
